@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.vTiger.ContactTest.ContactTC05Test">
+        <methods>
+          <include name="searchByLastNmae"/>
+          <include name="logoutAM"/>
+          <include name="login"/>
+          <include name="lunchBroser"/>
+          <include name="closeBrowserAC"/>
+        </methods>
+      </class> <!-- com.vTiger.ContactTest.ContactTC05Test -->
+      <class name="com.vTiger.ContactTest.ContactTC06Test">
+        <methods>
+          <include name="logoutAM"/>
+          <include name="login"/>
+          <include name="lunchBroser"/>
+          <include name="closeBrowserAC"/>
+          <include name="SearchByContactIdTest"/>
+        </methods>
+      </class> <!-- com.vTiger.ContactTest.ContactTC06Test -->
+      <class name="com.vTiger.ContactTest.ContactTC08Test">
+        <methods>
+          <include name="searchByOrganizationNameTest"/>
+          <include name="logoutAM"/>
+          <include name="login"/>
+          <include name="lunchBroser"/>
+          <include name="closeBrowserAC"/>
+        </methods>
+      </class> <!-- com.vTiger.ContactTest.ContactTC08Test -->
+      <class name="com.vTiger.ContactTest.ContactTC10">
+        <methods>
+          <include name="searchByEmail"/>
+          <include name="logoutAM"/>
+          <include name="login"/>
+          <include name="lunchBroser"/>
+          <include name="closeBrowserAC"/>
+        </methods>
+      </class> <!-- com.vTiger.ContactTest.ContactTC10 -->
+      <class name="com.vTiger.ContactTest.ContactTest">
+        <methods>
+          <include name="logoutAM"/>
+          <include name="login"/>
+          <include name="lunchBroser"/>
+          <include name="closeBrowserAC"/>
+          <include name="contactTest"/>
+        </methods>
+      </class> <!-- com.vTiger.ContactTest.ContactTest -->
+      <class name="com.vTiger.ContactTest.ContactTC04Test">
+        <methods>
+          <include name="logoutAM"/>
+          <include name="login"/>
+          <include name="lunchBroser"/>
+          <include name="closeBrowserAC"/>
+          <include name="searchByFirstNmaeTest"/>
+        </methods>
+      </class> <!-- com.vTiger.ContactTest.ContactTC04Test -->
+      <class name="com.vTiger.ContactTest.ContactTC07Test">
+        <methods>
+          <include name="searchByTitle"/>
+          <include name="logoutAM"/>
+          <include name="login"/>
+          <include name="lunchBroser"/>
+          <include name="closeBrowserAC"/>
+        </methods>
+      </class> <!-- com.vTiger.ContactTest.ContactTC07Test -->
+      <class name="com.vTiger.ContactTest.ContactCreateFirstNameTest">
+        <methods>
+          <include name="logoutAM"/>
+          <include name="login"/>
+          <include name="createUsingFirstNameTest"/>
+          <include name="lunchBroser"/>
+          <include name="closeBrowserAC"/>
+        </methods>
+      </class> <!-- com.vTiger.ContactTest.ContactCreateFirstNameTest -->
+      <class name="com.vTiger.ContactTest.ContactTC009">
+        <methods>
+          <include name="logoutAM"/>
+          <include name="searchByEmail"/>
+          <include name="login"/>
+          <include name="lunchBroser"/>
+          <include name="closeBrowserAC"/>
+        </methods>
+      </class> <!-- com.vTiger.ContactTest.ContactTC009 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

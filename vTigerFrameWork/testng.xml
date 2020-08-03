@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.vTiger.ContactTest.ContactTC009"/>
+      <class name="com.vTiger.ContactTest.ContactTC05Test"/>
+      <class name="com.vTiger.ContactTest.ContactTest"/>
+      <class name="com.vTiger.ContactTest.ContactCreateFirstNameTest"/>
+      <class name="com.vTiger.ContactTest.ContactTC04Test"/>
+      <class name="com.vTiger.ContactTest.ContactTC07Test"/>
+      <class name="com.vTiger.ContactTest.ContactTC06Test"/>
+      <class name="com.vTiger.ContactTest.ContactTC08Test"/>
+      <class name="com.vTiger.ContactTest.ContactTC10"/>
+      <class name="roughTest.Loginpage"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
